@@ -1,0 +1,17 @@
+# Logs
+application/logs/log-*.php
+application/logs/*.log
+
+# Cache
+application/cache/*
+!application/cache/index.html
+!application/cache/.gitkeep
+
+# Temp uploads
+uploads/temp/*
+!uploads/temp/.gitkeep
+
+# Environment / OS
+.DS_Store
+Thumbs.db
+*.tmp
